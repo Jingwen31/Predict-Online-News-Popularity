@@ -1,7 +1,6 @@
 # MSDS699 Final Project
 # Predicting Online News Popularity
-### Xiao Chu, Zhentao Hou, Jingwen Yu
-
+### Xiao Chu, Zhentao Hou, Jingwen Yu 
 ## Project Goal
 The goal of this project is to use features of online news to predict the popularity (measured by number of shares).
 ## Data Description
@@ -12,7 +11,7 @@ This dataset is from UCI Machine Learning Repository. It contains 59 features an
 ### Regression
 Initially, we used regression models to predict the number of shares of a piece of news. All features except for news url and timedelta were included in the model and StandardScaler() was applied to numerical features for all models except for the random forest regressor.  
   
-We built pipelines to train and compare 3 different algorithms: 
+We built pipelines to train and compare 3 different algorithms:  
 • Lasso Linear Regression  
 • Ridge Linear Regression  
 • Random Forest Regressor   
