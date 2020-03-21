@@ -1,12 +1,11 @@
-# MSDS699 Final Project
-# Predicting Online News Popularity
-### Group Member: Xiao Chu, Zhentao Hou, Jingwen Yu 
+# Predict Online News Popularity (MSDS699 Project)
+### Group Member: Xiao Chu, Zhentao Hou, Jingwen Yu
 ## Project Goal
-The goal of this project is to use features of online news to predict the popularity (measured by number of shares).
+The goal of this project is to use various features of online news to predict its popularity (measured by the number of shares).
 ## Data Description
 URL: https://archive.ics.uci.edu/ml/datasets/online+news+popularity.  
   
-This dataset is from UCI Machine Learning Repository. It contains 59 features and number of shares information for 39644 pieces of news originally collected from www.mashable.com.
+This dataset is from UCI Machine Learning Repository. It contains 59 features and the number of shares for 39644 pieces of news originally collected from www.mashable.com.
 ## Modeling
 ### Regression
 Initially, we used regression models to predict the number of shares of a piece of news. All features except for news url and timedelta were included in the model and StandardScaler() was applied to numerical features for all models except for the random forest regressor.  
@@ -16,7 +15,7 @@ We built pipelines to train and compare 3 different algorithms:
 • Ridge Linear Regression  
 • Random Forest Regressor   
 ### Classification
-Using regression models results in large errors, so we thought classification models may actually make more sense for this problem. We chose the median number of shares as the threshold to classify all the news as "popular" or "not popular". 
+Using regression models resulted in large errors, so we thought classification models may actually make more sense for this problem. We chose the median number of shares as the threshold to classify all news as "popular" or "not popular". 
   
 All features except for news url and timedelta were included in the model and StandardScaler() was applied to numerical features for all models except for the random forest classifier.  
   
@@ -30,7 +29,7 @@ For the regression model, we chose Median Absolute Error as the North Star metri
   
 For the classification model, we chose F1 Score as the North Star metric.
 ## Conclusion
-• Using F1 score as the North Star Metric, Random Forest is the best model.  
+• Using F1 score as the North Star Metric, Random Forest Classifier is the best model.  
   
 • Recommendations for reporters and business entities:  
 (1) Keywords are important.  
