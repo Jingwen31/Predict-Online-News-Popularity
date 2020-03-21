@@ -1,5 +1,5 @@
 # Predict Online News Popularity (MSDS699 Project)
-### Group Member: Xiao Chu, Zhentao Hou, Jingwen Yu
+### The News Squad Group Member: Xiao Chu, Zhentao Hou, Jingwen Yu
 ## Project Goal
 The goal of this project is to use various features of online news to predict its popularity (measured by the number of shares).
 ## Data Description
