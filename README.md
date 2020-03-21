@@ -32,6 +32,6 @@ For the classification model, we chose F1 Score as the North Star metric.
 • Using F1 score as the North Star Metric, Random Forest Classifier is the best model.  
   
 • Recommendations for reporters and business entities:  
-(1) Keywords are important.  
-(2) Publication time matters.   
-(3) Referencing articles with high popularity would be helpful.
+1. Keywords are important.  
+2. Publication time matters.   
+3. Referencing articles with high popularity would be helpful.
